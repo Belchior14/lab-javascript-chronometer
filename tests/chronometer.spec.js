@@ -151,7 +151,7 @@ describe('Chronometer', () => {
     });
   });
 
-  describe('"reset" method', () => {
+describe('"reset" method', () => {
     it('should be declared', () => {
       expect(typeof chronometer.reset).toEqual('function');
     });
